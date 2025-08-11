@@ -200,6 +200,9 @@ const Navbar = () => {
                         <Link to="/meet-us" className="sidebar-link" onClick={toggleSidebar}>Meet Us</Link>
                     </li>
                     <li className="sidebar-item">
+                        <Link to="/portfolio" className="sidebar-link" onClick={toggleSidebar}>Portfolio</Link>
+                    </li>
+                    <li className="sidebar-item">
                         <Link to="/contact" className="sidebar-link" onClick={toggleSidebar}>Contact Us</Link>
                     </li>
                 </ul>
